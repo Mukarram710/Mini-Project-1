@@ -1,0 +1,48 @@
+.start {
+    display: inline-block;
+    background-color: rgb(255, 255, 17);
+    padding: 12px;
+    font-size: 2rem;
+    font-weight: 200;
+    
+}
+.container {
+    text-align: center;
+    margin: auto;
+    margin-top:10% ;
+    border: solid black;
+    width: 40%;
+    height: 40rem;
+    background-color: aliceblue;
+}
+
+img {
+    display: block;
+    width: 42%;
+    margin:auto
+    
+}
+
+body {
+    background-color: yellow;
+}
+
+.end {
+    margin-top: 2rem;
+}
+
+@media (max-width:1250px){
+    .container {
+        height: 50rem;
+        width: 20rem;
+    }
+
+    h1 {
+        font-size: medium;
+    }
+
+       
+    img {
+        width: 12rem;
+    }
+}
